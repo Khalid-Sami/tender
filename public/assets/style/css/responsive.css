@@ -1,0 +1,554 @@
+@media screen and (min-width: 1370px) {
+}
+@media screen and (max-width: 1199px) {
+	/* search1*/
+	.search_results_list .search_result_item{
+		padding-bottom: 58px;
+	}
+	/* index */
+	.service_features_section .features_container .patient_apps .details ul>li>.img span.app_features_line,
+	.service_features_section .features_container .doctor_apps .details ul>li>.img span.app_features_line{
+		right: -230px;
+	    width: 230px;
+	}
+	.service_features_section .features_container .desktop .details{
+		padding-left: 15px;
+	}
+	.service_features_section .features_container .desktop .img_parent .img img{
+		max-width: 480px;
+	}
+	.service_features_section .features_container .desktop .details ul{
+		margin-top: 60px;
+	}
+	.service_features_section .features_container .desktop .details ul>li>.img span.app_features_line{
+		left: -85px;
+	    width: 85px;
+	    -ms-transform: rotate(13deg) translate(5px, -13px);
+	    -webkit-transform: rotate(13deg) translate(5px, -13px);
+	    transform: rotate(13deg) translate(5px, -13px);
+	}
+
+}
+@media screen and (max-width: 1080px) {
+}
+@media screen and (max-width: 1024px) {
+	.page_patient_container .appointments_list_container .appointment .person_info .img{
+		width: 100px;
+	}
+	.page_patient_container .appointments_list_container .appointment .person_info .name,
+	.page_patient_container .appointments_list_container .appointment .person_info .major, 
+	.page_patient_container .appointments_list_container .appointment .person_info .clinic{
+		margin-right: 105px;
+	}
+	.page_patient_container .appointments_list_container .appointment .time, 
+	.page_patient_container .appointments_list_container .appointment .date{
+		font-size: 18px;
+	}
+
+}
+@media screen and (max-width: 991px) {	
+	.services_section .service_item{
+		margin-bottom: 25px;
+	}
+	.clients_section .clients_row .client_item .img a{
+		height: 46px;
+	}
+	.service_features_section .features_container .doctor_apps{
+		padding-top: 10px;
+	}
+	.service_features_section .features_container .patient_apps .details ul,
+	.service_features_section .features_container .doctor_apps .details ul{
+		margin-top: 15px;
+	}
+	.service_features_section .features_container .desktop .details ul>li>.img span.app_features_line,
+	.service_features_section .features_container .patient_apps .details ul>li>.img span.app_features_line, 
+	.service_features_section .features_container .doctor_apps .details ul>li>.img span.app_features_line{
+		display: none;
+	}
+	.service_features_section .features_container .desktop .img_parent,
+	.service_features_section .features_container .desktop .details{
+		direction: rtl;
+	}
+	.service_features_section .features_container .desktop .img_parent .img img{
+		max-width: 100%;
+		height: auto;
+	}
+	.service_features_section .features_container .desktop .details ul>li>.content{
+		padding-right: 0;
+		padding-left: 130px;
+	}
+	.service_features_section .features_container .patient_apps{
+		padding-top: 50px;
+	}
+	.service_features_section .features_container .stores {
+		position: static;
+		margin: auto;
+		margin-left: auto;
+		margin-top: 20px;
+	}
+	/* patient page */
+	.page_patient_container .appointments_list_container .appointment .person_info{
+		width: 42%;
+	}
+	.page_patient_container .appointments_list_container .appointment .btns_action{
+		width: 24%;
+	}
+	.page_patient_container .appointments_list_container .appointment .btns_action a.edit{
+		margin-bottom: 5px;
+	}
+	/* medical clinic */
+	.clinic_doctors_section .clinic_doctors_list .clinic_doctor_item .person_info{
+		text-align: center;
+	}
+	.clinic_doctors_section .clinic_doctors_list .clinic_doctor_item .person_info .img{
+		float: none;
+		text-align: center;
+		margin: auto;
+		margin-bottom: 10px;
+	}
+	.clinic_doctors_section .clinic_doctors_list .clinic_doctor_item .person_info .name,
+	.clinic_doctors_section .clinic_doctors_list .clinic_doctor_item .person_info .major{
+		margin-right: 0;
+		text-align: center;
+	}
+	.clinic_doctors_section .clinic_doctors_list .clinic_doctor_item .doctor_about .about{
+		text-align: justify;
+	}
+	.clinic_doctors_section .clinic_doctors_list .clinic_doctor_item .action_bar{
+		text-align: center;
+	}
+	/* search1*/
+	.search_results_filter>.title{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.search_results_filter>.filter{
+		float: none;
+		text-align: center;
+	}
+	.search_results_filter>.filter .from_to{
+		margin-right: 0;
+	}
+	.search_results_list .search_result_item{
+		display: block;
+		padding-bottom: 0px;
+	}
+	.search_results_list .search_result_item .info{
+		display: block;
+		width: 100%;
+		position: relative;
+		padding-bottom: 0
+	}
+	.search_results_list .search_result_item .location{
+		display: block;
+		width: 100%;
+	}
+	.search_results_list .search_result_item .appointments_available{
+		position: static;
+		padding-right: 0px;
+		margin: 15px -30px 0;
+	}
+	.search_results_list .search_result_item .appointments_available>label{
+		position: static;
+		width: 100%;
+		border-bottom: 1px solid #bcbcbc;
+		margin-bottom: 0px;
+	}
+
+}
+@media screen and (max-width: 767px) {
+	.navbar-toggle{
+		top: 0;
+	}
+	.navbar-toggle .icon-bar{
+		background-color: #48abb7;
+	}
+	#header .navbar-nav>li.login img{
+		width: 100px;
+	    height: 100px;
+	    display: block;
+	    margin: 10px auto 25px;
+	}
+	#header .navbar-nav>li.login>a span{
+		padding-right: 0;
+	}
+	#header .navbar-nav>li.login.desktop{
+	    display: none;
+	}
+	.filters_wrap.style1 .form-horizontal .control-label{
+		margin-bottom: 0;
+		display: block;
+		border-radius: 4px 4px 0 0;
+	}
+	.filters_wrap.style1 .form-horizontal .form-group select, 
+	.filters_wrap.style1 .form-horizontal .form-group input[type="text"]{
+		border-radius: 0 0 4px 4px;
+		text-align: center !important;
+		text-align: center;
+  		text-align-last: center;
+	}
+	.filters_wrap.style1 .form-horizontal .form-group select option{
+		/*text-align: center;*/
+		text-align: center !important;
+	}
+	.services_section .video_wrap{
+		margin-top: -100px;
+	}
+	.services_section .video_container{
+		max-width: 100%;
+		height: 327px;
+	}
+	.services_section .service_item .details{
+		max-width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.clients_section .clients_row{
+		text-align: center;
+	}
+	.clients_section .clients_row .client_item{
+		float: none;
+		width: 30%;
+		display: inline-block;
+	}
+	.clients_section .clients_row .client_item .img{
+		padding-top: 17px;
+		padding-bottom: 17px;
+	}
+	/* modals */
+	.modal-backdrop.in{
+		opacity: .6
+	}
+	.modal-content{
+		margin-bottom: 50px;
+	}
+	/* login modal*/
+	.modal-body .form_container{
+		max-width: 80%;
+	}
+	/**/
+	.modal-body .form_container .available_majors_section,
+	.modal-body .form_container .insurance_section{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	/* contact */
+	.contact_container{
+		margin-top: 0;
+	}
+	.contact_container .contact_header{
+		text-align: center;
+	}
+	.contact_container .contact_header .title{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.contact_container .contact_info_container{
+		margin-bottom: 30px;
+	}
+	.contact_container .contact_form_container .btns_action .btn.btn-info-custom{
+		display: block;
+		min-width: 0;
+		width: 100%;
+		max-width: none;
+	}
+	/* patient page */
+	.page_patient_container .appointments_list_container .appointment{
+		display: block;
+		overflow: hidden;
+		padding-bottom: 15px;
+	}
+	.page_patient_container .appointments_list_container .appointment .person_info{
+		width: 100%;
+	}
+	.page_patient_container .appointments_list_container .appointment .time, 
+	.page_patient_container .appointments_list_container .appointment .date{
+		float: right;
+	    width: 50%;
+	    padding-top: 15px;
+	    padding-bottom: 15px;
+		border-top: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+	}
+	.page_patient_container .appointments_list_container .appointment .date{
+		border-left: 1px solid #ddd;		
+	}
+	.page_patient_container .appointments_list_container .appointment .btns_action{
+		width: 100%;
+    	float: right;
+    	padding-top: 15px;
+	}
+	.page_patient_container .appointments_list_container .appointment .btns_action a.edit{
+		margin-bottom: 0px;
+	}
+	/*medical clinic */
+	.medical_clinic_container .medical_clinic_head{
+		padding-bottom: 150px;
+	}
+	.medical_clinic_container .map_container{
+		height: 260px;
+	}
+	.medical_clinic_container .map_wrap{
+		margin-top: -130px;
+	}
+	.clinic_doctors_section .clinic_doctors_list .clinic_doctor_item{
+		display: block;
+	}
+	.clinic_doctors_section .clinic_doctors_list .clinic_doctor_item .person_info,
+	.clinic_doctors_section .clinic_doctors_list .clinic_doctor_item .doctor_about{
+		display: block;
+		width: 100%;
+	}
+	/* search1 */
+	.search_results_filter>.filter{
+		text-align: right;
+		background-color: #f6f6f6;
+		padding: 5px;
+	}
+	.search_results_filter>.filter .from_to, 
+	.search_results_filter>.filter .doctor_gender, 
+	.search_results_filter>.filter .appointments_available_view{
+		display: block;
+		margin-right: 0px;
+		margin-top: 5px;
+	}
+	.search_results_filter>.filter .from_to .from_to_break{
+		display: block;
+		height: 5px;
+	}
+	.search_results_filter>.filter .from_to > label{
+		min-width: 50px;
+		text-align: center;
+	}
+
+}
+@media screen and (max-width: 640px) {
+	.modal-body .form_container{
+		max-width: 85%;
+	}
+	.modal-body .form_container .insurance_section .insurances_list .insurance_item{
+		display: block;
+	}
+	.modal-body .form_container .insurance_section .insurances_list .insurance_item > div{
+		border-bottom: 1px solid #bcbcbc;
+    	border-left: none;
+	}
+	.modal-body .form_container .insurance_section .insurances_list .insurance_item > div.delete_item{
+		width: 100%;
+		text-align: center;
+		background-color: #f7f7f7;
+	}
+	.modal-body .form_container .insurance_section .insurances_list .insurance_item > div.insurance_name, 
+	.modal-body .form_container .insurance_section .insurances_list .insurance_item > div.insurance_cateygory, 
+	.modal-body .form_container .insurance_section .insurances_list .insurance_item > div.insurance_number{
+		width: 100%;
+	}
+	.modal-body .form_container .insurance_section .insurances_list .insurance_item > div input[type="text"]{
+		text-align: center;
+	}
+}
+@media screen and (max-width: 568px) {
+	.services_section .video_container{
+		height: 310px;
+	}
+	.service_features_section .features_container .details ul>li>.content{
+		padding-left: 0px !important;
+	}
+	/* page doctor */
+	.doctor_page_header{
+		min-height: 260px;
+	}
+	.doctor_page_header .img{
+		width: 160px;
+	}
+	.doctor_page_header .img img{
+		width: 150px;
+    	height: 150px;
+	}
+	.doctor_page_header .details{
+	    margin-right: 190px;
+	    padding-top: 25px;
+	}
+	/**/
+	.search_results_list .search_result_item .location iframe, 
+	.search_results_list .search_result_item .location img{
+		height: 180px;
+	}
+}
+@media screen and (max-width: 550px) {
+	.search_results_list .search_result_item .info .info_bottom .appointment, 
+	.search_results_list .search_result_item .info .info_top .doctor_info,
+	.search_results_list .search_result_item .info .info_bottom .appointment_confirm, 
+	.search_results_list .search_result_item .info .info_top .links{
+		float: none;
+    	width: 100%;
+	}
+	.search_results_list .search_result_item .info .info_top .doctor_info{
+		margin-bottom: 10px;
+	}
+
+}
+@media screen and (max-width: 480px) {
+	.services_section .video_container{
+		height: 260px;
+	}
+	.modal-body .form_container .add_insurance_wrap .col-xs-6{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	/* medical clinic */
+	.medical_clinic_container .medical_clinic_head{
+		min-height: 0px;
+		padding-bottom: 30px;
+	}
+	.medical_clinic_container .map_wrap{
+		margin-top: 0px;
+	}
+	.medical_clinic_container .map_container{
+		height: 230px;
+	}
+	.insurance_clinic_list .insurance_clinic_item{
+		display: block;
+		margin-top: 40px;
+	}
+	.insurance_clinic_list .insurance_clinic_item>div{
+		display: block;
+		width: 100% !important;
+		border-left: none;
+		border-bottom:1px solid #bcbcbc;
+		text-align: center;
+	}
+	.insurance_clinic_list .insurance_clinic_item > div.number{
+		position: absolute;
+	    right: -1px;
+	    left: -1px;
+	    top: -30px;
+	    /*width: 35px !important;*/
+	    border: 1px solid #48abb7;
+	    background-color: #48abb7;
+	    border-radius: 5px 5px 0px 0px;
+	    color: #fff;
+	    right: -1px;
+	    width: auto !important;
+	}
+}
+@media screen and (max-width: 479px) {
+	.services_section .video_container{
+		height: 170px;
+	}
+	.clients_section .clients_row .client_item{
+		width: 48%;
+	}
+	
+	.service_features_section .features_container .details ul {
+		padding-right: 0px !important;
+	}
+	.service_features_section .features_container .details ul>li{
+		display: block !important;
+	}
+	.service_features_section .features_container .details ul > li > .content,
+	.service_features_section .features_container .details ul>li>.img{
+		display: block !important;
+		width: 100% !important;
+		text-align: center !important;
+	}
+	.service_features_section .features_container .details ul>li>.img{
+		margin-bottom: 15px;
+	}
+	/* login modal */
+	.modal-body .form_container{
+		max-width: 100%;
+	}
+	.modal-body .form_container .M_footer_bar a{
+		display: block;
+		text-align: center;
+		margin-bottom: 7px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		float: none !important;
+	}
+	.modal-body .form_container .birth_of_date > label{
+		display: block;
+	}
+	.modal-body .form_container .birth_of_date .form-control.year{
+		width: 85px !important;
+	}
+	.modal-body .form_container .available_majors_section .majors_list ul>li{
+		float: none;
+		margin-left: 0;
+	}
+	.modal-body .M_modal_tabs_header .nav-tabs>li>a{
+		font-size: 12px;
+	}
+	/* page */
+	.page{
+		padding-top: 80px;
+	}
+	/* FAQs*/
+	.faqs_container .faq_header .title{
+		display: block;
+		text-align: center;
+	}
+	/* terms */
+	.terms_and_conditions_container .terms_and_conditions_title{
+		text-align: center;
+	}
+	/* contact */
+	.contact_container .contact_info_container{
+		text-align: center;
+	}
+	/*.contact_container .contact_address{
+		text-align: center;
+	}*/
+	.contact_container .contact_address > .fa{
+		float: none;
+	    margin-left: 0;
+	    margin-bottom: 5px;
+	}
+	.contact_container .contact_address > p{
+		margin-right: 0;
+		max-width: 100%;
+	}
+	/* patient page */
+	.page_patient_container .appointments_list_container .appointment .btns_action a.btn{
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+	/* page doctor */
+	.doctor_page_header{
+		padding-top: 30px;
+	}
+	.doctor_page_header .img{
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.doctor_page_header .details{
+		margin-right: 0;
+		text-align: center;
+	}
+	.doctor_page_body .patients_review > .row div[class*="col-xs"]{
+		width: 100%;
+	}
+	/* medical clinic */
+	.clinic_doctors_section .clinic_doctors_head .title{
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.clinic_doctors_section .clinic_doctors_head .jplist-panel{
+		float: none !important;
+	}
+	.clinic_doctors_section .clinic_doctors_head .jplist-panel .btn{
+		width: 100%;
+	}
+	.medical_clinic_container .medical_clinic_head .head_content .m_subtitle{
+		line-height: 26px;
+	}
+	.medical_clinic_container .map_wrap{
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+}
+@media screen and (max-width: 320px) {
+}

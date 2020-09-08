@@ -1,0 +1,42 @@
+{{--var itemsVal = [];--}}
+                {{--var itemsText = [];--}}
+                {{--$('#selectItems :selected').each(function(i, selected){--}}
+                {{--itemsVal[i] = $(selected).val();--}}
+                {{--itemsText[i] = $(selected).text();--}}
+                {{--});--}}
+                {{--if(itemsVal.length == 0)--}}
+                {{--$("#itemsContentBody").empty();--}}
+
+                {{--if(itemsVal.length > 0){--}}
+                {{--$.ajax({--}}
+                {{--method:'GET',--}}
+                {{--dataType: 'json',--}}
+                {{--url: '{{url('/')}}/admin/itemDetails',--}}
+                {{--data:{--}}
+                {{--"_token": "{{csrf_token()}}",--}}
+                {{--'itemsVal': itemsVal--}}
+                {{--},--}}
+                {{--success: function (data, textStatus, jqXHR) {--}}
+                {{--$("#itemsContentBody").empty();--}}
+                {{--$.each(data.items, function (i, item) {--}}
+                {{--//                            $('#city').append($('<option>', {--}}
+                {{--//                                value: item.pk_i_id,--}}
+                {{--//                                text : function () {--}}
+                {{--//                                    return item.s_name--}}
+                {{--//                                }--}}
+                {{--//                            }));--}}
+                {{--$('#itemsTable tbody').append([--}}
+                {{--'<tr id="'+item.itemID+'">',--}}
+                {{--'<td>'+(i+1)+'</td>',--}}
+                {{--'<td>'+item.itemName+'</td>',--}}
+                {{--'<td>'+item.itemUnit+'</td>',--}}
+                {{--'<td><input name="quantityItem['+(i+1)+']" type="text" class="form-control quantityItem"></td>',--}}
+                {{--'<td><input name="itemNotes['+(i+1)+']" type="text" class="form-control itemNotes">' +--}}
+                {{--'<input type="hidden" name="ids['+(i+1)+']" value="'+item.itemID+'">' +--}}
+                {{--'</td>',--}}
+                {{--'</tr>'--}}
+                {{--].join(''));--}}
+                {{--});--}}
+                {{--}--}}
+                {{--})--}}
+                {{--}--}}

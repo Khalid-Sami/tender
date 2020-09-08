@@ -1,0 +1,3 @@
+BEGIN
+	UPDATE t_tender SET i_status = 98 WHERE pk_i_id = id AND NOW() > dt_close_date;
+END

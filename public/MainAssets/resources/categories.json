@@ -1,0 +1,5 @@
+{
+	"cities": ["Dubai", "Abu Dhabi", "Sharjah", "Al Ain", "Ajman", "Ras Al Khaimah", "Fujairah", "Umm al-Quwain"],
+	"counties": ["UAE","Canada", "Thailand", "Malaysia", "France", "Italy", "Indonesia", "Romania"],
+	"types": ["Beauty","Health","Learning","Car", "Restaurant", "Education", "Fennel", "Shopping"]
+}
